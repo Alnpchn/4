@@ -7,7 +7,7 @@ void main(void)
 	float f = 3.14f;
 	double d = 5e-12;
 	setlocale(LC_ALL, "RUS");
-	puts("Задание 1");
+	puts("Р—Р°РґР°РЅРёРµ 1");
 	printf("%c %d %f %lf\n", c, i, f, d);
 	scanf("%c%d%f%lf", &c, &i, &f, &d);
 	system("pause");
@@ -15,7 +15,7 @@ void main(void)
 
 
 
-	puts("Задание 1а");
+	puts("Р—Р°РґР°РЅРёРµ 1Р°");
 	double A;
 	int B;
 	double E;
@@ -28,7 +28,7 @@ void main(void)
 
 
 
-	puts("Задание 2");
+	puts("Р—Р°РґР°РЅРёРµ 2");
 	int a = 11;
 	int b = 3;
 	int x;
@@ -43,10 +43,10 @@ void main(void)
 	system("cls");
 
 
-	puts("Задание 3");
+	puts("Р—Р°РґР°РЅРёРµ 3");
 	int n;
 	scanf("%d", &n);
-	printf("Ваше число %d\n", n);
-	printf("Последняя цифра %d, первая цифра %d, сумма цифр %d\n", n % 10, n/100, (n%10) + (n / 10 % 10) + (n / 100));
-	printf("Число наоборот %d%d%d", n % 10, n / 10 % 10, n / 100);
+	printf("Р’Р°С€Рµ С‡РёСЃР»Рѕ %d\n", n);
+	printf("РџРѕСЃР»РµРґРЅСЏСЏ С†РёС„СЂР° %d, РїРµСЂРІР°СЏ С†РёС„СЂР° %d, СЃСѓРјРјР° С†РёС„СЂ %d\n", n % 10, n/100, (n%10) + (n / 10 % 10) + (n / 100));
+	printf("Р§РёСЃР»Рѕ РЅР°РѕР±РѕСЂРѕС‚ %d%d%d", n % 10, n / 10 % 10, n / 100);
 }
